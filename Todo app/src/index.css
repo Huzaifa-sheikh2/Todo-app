@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+/* Custom utility class */
+@layer utilities {
+  .hover-underline:hover {
+    text-decoration: underline;
+  }
+}
