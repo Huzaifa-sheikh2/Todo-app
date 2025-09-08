@@ -1,13 +1,18 @@
-
 import "./App.css";
-
+import Navbar from "./component/Navbar";
 function App() {
+ 
+  return(
+    <>
+    <Navbar/>
+    <div className="container mx-auto">
+    <div className="bg-blue-400 text-white text-center p-4 rounded-md mt-4">
+      <h1>Your TODO</h1>
+    </div>
+    </div>
+    </>
+  )
   
-  return <>
-  <div className="bg-red-500 text-white p-4">
-    hello
-      </div>  
-  </>;
 }
 
 export default App;
